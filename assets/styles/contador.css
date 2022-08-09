@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(24, 151, 143);
+}
+h1{
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+#resetear{
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid rgb(10, 10, 10);
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(219, 66, 66);
+    padding: 5px;
+    margin: 10px;
+    transition: background-color .5s;
+    -webkit-transition:all .2s ease;
+}
+#resetear:hover{
+    background-color: rgb(250, 21, 21);
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05);
+}
+#incrementar{
+     
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(59, 224, 134);
+    padding: 5px;
+    margin: 10px;
+    transition: background-color .5s;
+    -webkit-transition:all .2s ease;
+}
+#incrementar:hover{
+    background-color: rgb(0, 189, 16);
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05);
+}
+#decrementar{
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(3, 191, 224);
+    padding: 5px;
+    margin: 10px;
+    transition: background-color .5s;
+    -webkit-transition:all .2s ease;
+}
+#decrementar:hover{
+    background-color: rgb(7, 134, 207);
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05);
+}
+.container{
+    border: solid 2px black;
+    margin-top: 100px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    justify-content: center;
+    width: 500px;
+    background-color: rgb(84, 186, 185);
+}
